@@ -1,0 +1,207 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	font-family:cursive;
+	list-style:none;
+	background:url('');
+}
+.aviis{
+
+	
+}
+.navbar a{
+	color: cyan;
+}
+.navbar{
+	background-color:black;
+	color: cyan;
+	width:100%;
+	position:fixed;
+	padding:25px 0px;
+
+}
+.navbar .max-width{
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo a {
+	color:cyan;
+	font-weight:400;
+	font-size: 40px;
+}
+.logo a honey{
+	color:midnightblue;
+}
+.menu{
+	padding-right:20px;
+}
+.menu li{
+	display:inline-block;
+	padding-top: 10px;
+}
+.menu li a{
+	color:cyan;
+	font-size: 20px;
+	font-weight:200px ;
+	margin-left:25px;
+	transition: color 2s;
+}
+.menu li a:hover{
+	border: 1px solid black;
+	color:midnightblue;
+}
+/*Fin Barre de Navigation*/
+.Avis p{
+	font-size: 40px;
+	text-align:center;
+	color:black;
+}
+.avis{
+	display:flex;
+	justify-content: space-between;
+}
+form{
+	border:2px groove midnightblue;
+	background-color:black;
+	margin-left: 20px;
+	width:30%;
+	padding:30px 100px;
+	position:center;
+	border-radius:12px;
+
+}
+label{
+	color:cyan;
+}
+input,textarea{
+	background-color: dodgerblue;
+	border-radius:12px;
+	height:50px;
+	width:250px;
+	border:2px groove midnightblue;
+}
+.envoi{
+	background-color:midnightblue;
+	color:dodgerblue;
+	width:150px;
+	font-size:25px;
+}
+.envoi:hover{
+	background-color:dodgerblue;
+	color:midnightblue;
+
+}
+.oui{
+	display:block;
+}
+.comm{
+	height:600px;
+	width:50%;
+	border:2px groove midnightblue;
+	border-radius:12px;
+	background-color: black;
+	color: cyan;
+
+}
+
+h1{
+	text-align:center;
+	color:midnightblue; 
+}
+.comm1{
+	display:flex;
+	justify-content: space-between;
+	height:20%;
+	width:100%;
+	margin-top: 5px;
+}
+.comm1 div img{
+	width:70px;
+	height:70px;
+	border:2px solid midnightblue;
+	border-radius:60px;
+	margin:12px;
+	margin-top: 17px;
+}
+.comm1 div p{
+	font-size:20px;
+	color: cyan;
+}
+span{
+	font-weight:bolder;
+
+}
+.logo1{
+	display:flex;
+	justify-content: space-between;
+}
+.logo1 .im {
+	width:30%;
+	margin:50px;
+}
+.logo1 .tex{
+	width:65%;
+}
+.logo1 .tex pre{
+	font-size:80px;
+	font-weight:bold;
+	text-align:center;
+	color:dodgerblue;
+	margin-top:70px;
+}
+h1{
+	color:black;
+	text-align:center;
+	font-size:40px;
+}
+
+.fille {
+	text-align: center;
+	font-size: 15px;
+	width:900px;
+	height:350px;
+	display:flex;
+	justify-content: space-between;
+	border:2px solid white;
+	padding-left:200px;
+	position: center;
+	line-height: 30px;
+
+}
+.fille .d1{
+	border-radius: 5px;
+	border:5px solid black;
+	background-color:black;
+	width:250px;
+	padding-top: 8px;
+	color:cyan;
+}
+.fille div p{
+	font-size: 25px;
+}	
+.fille div .pf{
+	font-size: 30px;
+}
+.d1 img{
+	width:100px;
+	height:100px;
+
+}	
+
+.contact 
+{
+	background-color:black;
+	width:100%;
+	color:cyan;
+	text-align: center;
+}
+.contact .reseau p{
+	font-size:20px;
+	font-family: 'Exo', sans-serif;
+
+}
+.avis p{
+	color: black;
+}
